@@ -1,0 +1,162 @@
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/source-sans-pro-v19-latin-regular.woff2') format('woff2'),
+  url('../fonts/source-sans-pro-v19-latin-regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/source-sans-pro-v19-latin-700.woff2') format('woff2'),
+  url('../fonts/source-sans-pro-v19-latin-700.woff') format('woff');
+}
+
+*,
+*::after,
+*::before{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: "Source Sans Pro";
+  background-color: #fff;
+  border: none;
+}
+a{
+  text-decoration: none !important;
+}
+ul{
+  list-style-type: none;
+}
+.header__input{
+  width: 224px;
+  height: 29px;
+  background: #F4F4F4;
+  border-radius: 8px;
+  color: #AEAEAE;
+}
+.header__button{
+  border-radius: 3px;
+}
+.header__heading{
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+}
+.header__text{
+  font-size: 12px;
+}
+.header__link{ 
+  top: -10px;
+  right: 0;
+}
+.name__span{
+  font-size: 14px;
+  color: #333333;
+}
+.nasty__markelova{
+    line-height: 15px;
+  font-size: 13px;
+  color: #333333;
+}
+.thanks{
+  font-size: 13px;
+  color: #999999;
+}
+.wed__open--text{
+  margin-right: 13px;
+}
+.telegram__open{
+  border-top: 1px solid #EAEAEA;
+  border-right: 1px solid #EAEAEA;
+  background: #F7F7F7;
+}
+.telegram__etim{
+  padding-top: 8px; 
+}
+.telegram__etim:hover{
+  background-color: rgb(0, 26, 255);
+  color: #fff   ;
+}
+.february{
+  margin-left: 200px;
+}
+.nasty__link{
+  font-size: 13px;
+  line-height: 1px;
+}
+.stekker{
+  font-size: 25px;
+  line-height: 50px;
+}
+.smileys{
+  font-weight: 700;
+  font-size: 13px;
+  color: #333333;
+}
+.recent__text{
+  font-weight: 700;
+  font-size: 13px;
+  color: #333333;
+}
+.gif{
+  font-size: 13px;
+  color: #2481CC;
+}
+.center__list{
+  width: 100%;
+}
+.center__etim{
+  display: inline-block;
+  width: 100%;
+  justify-content: space-between;
+}
+.dmitriy{
+  margin-bottom: 0;
+  margin-left: 10px;
+  font-weight: 700;
+  font-size: 13px;
+  color: #2481CC;
+}
+.has__come{
+  margin-left: 10px;
+  font-size: 13px;
+  color: #060606;
+}
+.fri{
+  /* right: -30px; */
+  /* position: absolute; */
+  font-size: 12px;
+  color: #999999;
+}
+.behance__link{
+  margin-left: 10px;
+  font-size: 13px;
+  color: #2481CC;
+}
+.dmitriy__before{
+  margin-left: 20px;
+  position: relative;
+}
+.dmitriy__before::before{
+  position: absolute;
+  content: "";
+  left: -10px;
+  width: 2px;
+  height: 120px;
+  background-color: #2481CC;
+}
+.has__text{
+  margin-top: 5px;
+  margin-left: 10px;
+  width: 260px;
+  font-size: 13px;
+  color: #000000;
+}
+.february{
+  font-size: 13px;
+  color: #999999;
+}
